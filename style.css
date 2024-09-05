@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.game{
+    background-color: aqua;
+    backdrop-filter: blur(15px);
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    button{
+        width: 50px;
+        display: flex;
+        margin-top: 20px;
+        border-radius: 20px;
+        border: none;
+        text-align: center;
+        
+    }
+}
